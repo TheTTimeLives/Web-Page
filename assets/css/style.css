@@ -48,6 +48,11 @@
       opacity: .5;
   }
 
+  nav{
+    background-color:rgba(0,0,0,.5);
+
+  }
+
   .opacity2{
     background-color:black;
     opacity: .5;
@@ -129,3 +134,6 @@
       }
   }
   
+  .nothing{
+    position: relative;
+  }
