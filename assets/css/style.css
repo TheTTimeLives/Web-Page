@@ -1,0 +1,131 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+  
+  #bgimage {
+    background-image: url("../images/loop2.gif");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    
+  }
+
+  @media only screen and (max-width: 767px) {
+    #bgimage {
+        background-image: url("../images/loop.gif") center center cover no-repeat fixed;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        
+        
+      }
+  }
+  
+  .fixed {
+      
+      position: fixed;
+      bottom: 0px;
+  }
+
+  .quote {
+      color: white;
+  }
+
+  .down {
+      position: relative;
+      top: 190px;
+  }
+
+  .opacity{
+      opacity: .5;
+  }
+
+  .opacity2{
+    background-color:black;
+    opacity: .5;
+}
+
+  .opacityb {
+      opacity:1;
+  }
+
+  .bg {
+      background-image: url("../images/funky-lines.png")
+  }
+
+  .width {
+      width: 90%;
+  }
+
+  .card-panel {
+      margin: 0 auto;
+      
+      border-radius: 90px;
+  }
+
+  .containerb {
+    width: 70%;
+}
+      
+.transform {
+    transform: scale(.8);
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+  }
+  
+  .fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media (min-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+      height: 300%;
+      top: -100%;
+    }
+  }
+  
+  @media (max-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+      width: 300%;
+      left: -100%;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .fullscreen-bg {
+      background: url('../img/videoframe.jpg') center center / cover no-repeat;
+    }
+  
+    .fullscreen-bg__video {
+      display: none;
+    }
+  }
+
+@media only screen and (max-width: 1520px) {
+    #bgimage {
+        background-image: url("../images/funky-lines.png") center center cover no-repeat fixed;
+        height: 870px;
+        
+      }
+  }
+  
